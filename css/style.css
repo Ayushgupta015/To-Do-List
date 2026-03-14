@@ -1,0 +1,68 @@
+body{
+   font-family: Arial;
+   display: flex;
+   justify-content: center;
+   margin-top: 3%;
+}
+
+.container{
+   background-color: rgba(255, 255, 255, 0.342);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(92, 81, 81, 0.863);
+   gap: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.input-row{
+   display: flex;
+   gap: 10px;
+}
+
+input, button{
+   padding: 8px 12px;
+   height: 40px;
+   box-sizing: border-box;
+}
+
+button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+ul{
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    margin-top: 15px;
+    background-color: beige;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.Delete{
+    background: red;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.Delete img{
+    width: 20px;
+    height: 20px;
+}
+
+
